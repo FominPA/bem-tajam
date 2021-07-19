@@ -1,0 +1,25 @@
+.section-describe {
+	text-align: center;
+	padding-bottom: 48px;
+}
+
+.section-describe__text {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: .75pt;
+	margin: 10px auto 15px;
+}
+
+.section-describe__hr {
+	margin: auto;
+	width: 50px;
+	height: 2px;
+	background-color: #413D4B;
+	opacity: .3;
+}
+
+.overlay .section-describe__hr {
+	background-color: #f9f9f9;
+	opacity: .2;
+}

@@ -1,0 +1,99 @@
+.header {
+  background-image: url("header-background.png");
+  background-size: cover; }
+
+.header__second-inner {
+  height: 670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.roof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px 0; }
+
+.roof__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 525px; }
+
+.first-slide {
+  text-align: center; }
+
+.first-slide__hr {
+  background-color: #00E0D0;
+  width: 50px;
+  height: 1px;
+  margin: 30px auto; }
+
+.first-slide__text {
+  margin-bottom: 50px; }
+
+.dot-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 586px; }
+
+.dot-slider__content {
+  max-width: 780px;
+  margin: auto; }
+
+.dot-slider__selectors {
+  line-height: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 80px; }
+
+.dot-slider__selector {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 2.5px; }
+
+.dot-slider__selector_active {
+  background-color: #00E0D0;
+  border-color: #00E0D0; }
+
+@media (max-width: 720px) {
+  .roof__logo .logo {
+    padding-right: 10px; }
+  .menu {
+    margin: auto; } }
+
+@media (max-width: 590px) {
+  .menu {
+    display: none; } }

@@ -1,0 +1,8 @@
+.menu__item {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 13px; }
+  .menu__item:hover {
+    color: #00E0D0; }

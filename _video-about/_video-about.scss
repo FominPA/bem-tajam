@@ -1,0 +1,18 @@
+.video-about {
+	background-image: url('video-about-background.png');
+	background-size: cover;
+}
+
+.video-about__inner {
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.video-about__play-bigicon { margin-bottom: 30px; }
+
+@media (max-width: 400px) {
+	.video-about__inner { height: 480px; }
+}
