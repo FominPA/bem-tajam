@@ -19,6 +19,9 @@
 .text-about__text {
   width: calc(100% - 400px); }
 
+.text-about__paragraph {
+  margin: 30px 0; }
+
 @media (max-width: 820px) {
   .text-about .left {
     width: 50%; }

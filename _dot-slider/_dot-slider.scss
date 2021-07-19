@@ -1,0 +1,33 @@
+.dot-slider {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height:  586px;
+}
+
+.dot-slider__content {
+	max-width: 780px;
+	margin: auto;
+}
+
+.dot-slider__selectors {
+	line-height: 10px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 80px;
+}
+
+.dot-slider__selector {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 1px solid white;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 2.5px;
+}
+
+.dot-slider__selector_active {
+	background-color: #00E0D0;
+	border-color: #00E0D0;
+}
