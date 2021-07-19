@@ -12,17 +12,17 @@
   width: calc(100% - 44px); }
 
 @media (max-width: 850px) {
-  .feedback {
+  .feedback-form {
     padding: 30px 0;
     display: block; }
-    .feedback > * {
+    .feedback-form > * {
       width: 470px;
       margin: 30px auto; }
   .feedback-form {
     margin-bottom: 30px; } }
 
 @media (max-width: 520px) {
-  .feedback > * {
+  .feedback-form > * {
     width: 90%;
     text-align: center; }
   .feedback-form {

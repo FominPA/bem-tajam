@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 850px) {
-	.feedback {
+	.feedback-form {
 		padding: 30px 0;
 		display: block;
 		& > * { width: 470px; margin: 30px auto; }
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 520px) {
-	.feedback > * { width: 90%; text-align: center;	}
+	.feedback-form > * { width: 90%; text-align: center;	}
 	.feedback-form { margin: auto; } 
 	.feedback-form__text { margin: 15px auto; }
 }
