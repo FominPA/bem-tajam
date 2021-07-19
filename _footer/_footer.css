@@ -74,47 +74,6 @@
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.subscribe {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.subscribe__email {
-  display: block;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  color: white;
-  opacity: .75;
-  padding: 15px;
-  width: calc(100% - 112px);
-  background: none;
-  border: 1px solid rgba(255, 255, 255, 0.5); }
-
-.subscribe__submit {
-  width: 70px;
-  height: 49px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.5); }
-  .subscribe__submit .far {
-    color: black;
-    font-size: 24px; }
-
 .soc-nets {
   display: -webkit-box;
   display: -ms-flexbox;
