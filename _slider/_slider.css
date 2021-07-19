@@ -1,0 +1,34 @@
+.slider__selectors {
+  text-align: center;
+  padding-top: 45px; }
+
+.slider__selector {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+  padding: 0px 12.5px; }
+
+.slider__selector:hover {
+  width: 70px;
+  height: 70px;
+  padding: 0; }
+
+.slider__selector_active {
+  width: 70px;
+  height: 70px;
+  padding: 0; }
+
+@media (max-width: 600px) {
+  .slider__selector {
+    width: 35px;
+    height: 35px;
+    margin: 0px 12.5px; }
+  .slider__selector:hover {
+    width: 35px;
+    height: 35px;
+    margin: 0px 12.5px; }
+  .slider__selector:active {
+    width: 35px;
+    height: 35px;
+    margin: 0px 12.5px; } }
