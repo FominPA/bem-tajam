@@ -2,57 +2,9 @@
  * This file is the result of manual assembly of project blocks.
  */
 
-// ------------------------ Fonts ------------------------- //
-
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap");
-@import url('fontawesome/css/all.min.css');
-
 // ----------------------- Normalize ---------------------- //
 
-* { margin: 0; padding: 0; }
-
-a { text-decoration: none; }
-
-img { max-width: 100%; }
-
-h1 {
-	font-family: 'Playfair Display', sans-serif;
-	font-weight: 900;
-	font-size: 32px;
-	line-height: 29px;
-}
-
-h2 {
-	font-family: 'Playfair Display', sans-serif;
-	font-weight: 900;
-	font-size: 22px;
-	text-transform: uppercase;
-	letter-spacing: .5pt;
-}
-
-h3 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: black;
-	font-size: 16px;
-	text-transform: uppercase;
-}
-
-h4 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	font-size: 16px;
-	text-transform: uppercase;
-}
-
-p {
-	opacity: 75%;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
-	line-height: 24px;
-}
+@import url('normalize.css');
 
 // --------------------- Page Elements -------------------- //
 
